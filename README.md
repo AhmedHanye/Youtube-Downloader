@@ -38,7 +38,7 @@ name: [Video Title]
 Download URL: [Download Link]
 
 ```
-Replace `[Paste your YouTube video URL here]`, `[Video Title]`, and `[Download Link]` with the actual values.
+Replace `[Paste your YouTube video URL here]` with the actual Youtube URL.
 
 ## Downloading with External Download Manager
 
