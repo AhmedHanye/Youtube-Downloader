@@ -29,6 +29,30 @@ This Python script enables you to download YouTube videos and playlists quickly 
     pip install colorama
   ```
 ## Example :
+### youtube audio:
+```
+Enter the video URL: https://youtu.be/_4kHxtiuML0?si=Td_9k7HB-mK4N37m
+[youtube] Extracting URL: https://youtu.be/_4kHxtiuML0?si=Td_9k7HB-mK4N37m 
+[youtube] _4kHxtiuML0: Downloading webpage 
+[youtube] _4kHxtiuML0: Downloading ios player API JSON 
+[youtube] _4kHxtiuML0: Downloading android player API JSON 
+[youtube] _4kHxtiuML0: Downloading m3u8 information 
+Youtube Video : Focus Music for Work and Studying, Background Music for Concentration, Study Music
+Enter the type of the download (video/audio): audio
+Enter the path to save: "C:\Users\ahmedhanye\Downloads"
+[youtube] Extracting URL: https://youtu.be/_4kHxtiuML0?si=Td_9k7HB-mK4N37m 
+[youtube] _4kHxtiuML0: Downloading webpage 
+[youtube] _4kHxtiuML0: Downloading ios player API JSON 
+[youtube] _4kHxtiuML0: Downloading android player API JSON 
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed. 
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (1/3)... 
+[youtube] _4kHxtiuML0: Downloading android player API JSON 
+[youtube] _4kHxtiuML0: Downloading m3u8 information 
+[info] _4kHxtiuML0: Downloading 1 format(s): 140 
+[download] Destination: C:\Users\ahmedhanye\Downloads\Focus Music for Work and Studying, Background Music for Concentration, Study Music.m4a 
+[download] 100% of  508.29MiB in 00:00:06 at 75.78MiB/s
+[FixupM4a] Correcting container of "C:\Users\ahmedhanye\Downloads\Focus Music for Work and Studying, Background Music for Concentration, Study Music.m4a"
+```
 ### youtube video:
 ```
 Enter the video URL: https://youtu.be/7PIji8OubXU?si=H-3zMt_ALfClXGjW
@@ -297,4 +321,4 @@ Deleting original file C:\Users\ahmedhanye\Downloads\iPhone 15\12 - iPhone + App
 [download] Finished downloading playlist: iPhone 15
 ```
 #
-Feel free to customize this template according to your specific project details and preferences. Let me know if you need further assistance!
+Feel free to customize this app according to your specific project details and preferences. Let me know if you need further assistance!
