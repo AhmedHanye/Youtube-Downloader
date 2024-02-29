@@ -28,6 +28,8 @@ def main():
             print(Fore.RED+"Error3: something went wrong!"+Style.RESET_ALL)
             return
     elif check_result == "playlist":
+        title,items = get_playlist_info(url)
+        print("Youtube Playlist :", Fore.GREEN+title+Style.RESET_ALL,"It has",Fore.GREEN+str(items)+Style.RESET_ALL,"videos.")
         path = ask_for_path()
         res = ask_for_playlist_res()
         download_playlist(url, path, res)

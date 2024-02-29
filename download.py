@@ -114,6 +114,22 @@ def download_video(url, title, chosen_format_id, chosen_format_res, download_pat
         ydl.download([url])
 
 
+# Get playlist info
+def get_playlist_info(url):
+    ydl_opts = {
+        'quiet': True,  # Suppress console output
+        'extract_flat': True,  # Extract only flat information (no downloading)
+        'force_generic_extractor': True,  # Use generic extractor to avoid extraction errors
+        'dump_single_json': True,  # Output info in JSON format
+    }
+
+    with YoutubeDL(ydl_opts) as ydl:
+        playlist_info = ydl.extract_info(url, download=False)
+        title = playlist_info.get('title', 'Playlist')
+        total_items = len(playlist_info.get('entries', []))
+        return title, total_items
+
+
 # ask for the preferred resolution of the playlist
 def ask_for_playlist_res():
     while True:
