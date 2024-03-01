@@ -12,12 +12,7 @@ This Python script enables you to download YouTube videos and playlists quickly 
 ## Requirements
 
 - Install [Python 3.x](https://www.python.org/downloads/)
-- Install [yt-dlp](https://github.com/yt-dlp/yt-dlp) Library :
-
-  ```
-    pip install yt-dlp
-  ```
-
+- Install [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation) Library.
 - Install [FFmpeg](https://ffmpeg.org/download.html) :
 
   1. Windows : https://phoenixnap.com/kb/ffmpeg-windows
